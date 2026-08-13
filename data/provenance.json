@@ -1,0 +1,96 @@
+{
+  "_note": "Provenance metadata for each corpus document. Each corpus file is a concise factual summary derived from the cited Wikipedia article under CC BY-SA 4.0. 'retrieved_at' is the date the source was consulted; 'source_url' is the canonical article.",
+  "license": "CC BY-SA 4.0",
+  "documents": {
+    "rdf": {
+      "title": "Resource Description Framework",
+      "source_url": "https://en.wikipedia.org/wiki/Resource_Description_Framework",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "sparql": {
+      "title": "SPARQL",
+      "source_url": "https://en.wikipedia.org/wiki/SPARQL",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "owl": {
+      "title": "Web Ontology Language",
+      "source_url": "https://en.wikipedia.org/wiki/Web_Ontology_Language",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "knowledge_graph": {
+      "title": "Knowledge graph",
+      "source_url": "https://en.wikipedia.org/wiki/Knowledge_graph",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "linked_data": {
+      "title": "Linked data",
+      "source_url": "https://en.wikipedia.org/wiki/Linked_data",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "dbpedia": {
+      "title": "DBpedia",
+      "source_url": "https://en.wikipedia.org/wiki/DBpedia",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "sun": {
+      "title": "Sun",
+      "source_url": "https://en.wikipedia.org/wiki/Sun",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "mercury": {
+      "title": "Mercury",
+      "source_url": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "venus": {
+      "title": "Venus",
+      "source_url": "https://en.wikipedia.org/wiki/Venus",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "earth": {
+      "title": "Earth",
+      "source_url": "https://en.wikipedia.org/wiki/Earth",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "mars": {
+      "title": "Mars",
+      "source_url": "https://en.wikipedia.org/wiki/Mars",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "jupiter": {
+      "title": "Jupiter",
+      "source_url": "https://en.wikipedia.org/wiki/Jupiter",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "saturn": {
+      "title": "Saturn",
+      "source_url": "https://en.wikipedia.org/wiki/Saturn",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "uranus": {
+      "title": "Uranus",
+      "source_url": "https://en.wikipedia.org/wiki/Uranus",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    },
+    "neptune": {
+      "title": "Neptune",
+      "source_url": "https://en.wikipedia.org/wiki/Neptune",
+      "retrieved_at": "2026-08-13",
+      "publisher": "Wikipedia"
+    }
+  }
+}

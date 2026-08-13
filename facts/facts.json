@@ -1,0 +1,709 @@
+{
+  "_note": "Curated facts extracted from each corpus document. Every fact lives under the doc it was taken from, so the graph can trace any answer back to a source. Objects are either {'id': <entity>} for an IRI or {'lit': <value>, 'dt': <xsd type>} for a literal.",
+  "facts": {
+    "rdf": [
+      {
+        "s": "RDF",
+        "p": "type",
+        "o": {
+          "id": "Standard"
+        }
+      },
+      {
+        "s": "RDF",
+        "p": "label",
+        "o": {
+          "lit": "Resource Description Framework"
+        }
+      },
+      {
+        "s": "RDF",
+        "p": "developedBy",
+        "o": {
+          "id": "W3C"
+        }
+      },
+      {
+        "s": "RDF",
+        "p": "dataModel",
+        "o": {
+          "lit": "directed labeled graph of triples"
+        }
+      },
+      {
+        "s": "RDF",
+        "p": "statementForm",
+        "o": {
+          "lit": "subject-predicate-object"
+        }
+      },
+      {
+        "s": "RDF",
+        "p": "firstRecommendedYear",
+        "o": {
+          "lit": "1999",
+          "dt": "gYear"
+        }
+      },
+      {
+        "s": "RDF",
+        "p": "usesSerialization",
+        "o": {
+          "id": "Turtle"
+        }
+      },
+      {
+        "s": "RDF",
+        "p": "usesSerialization",
+        "o": {
+          "id": "JSONLD"
+        }
+      },
+      {
+        "s": "RDF",
+        "p": "storedIn",
+        "o": {
+          "id": "Triplestore"
+        }
+      }
+    ],
+    "sparql": [
+      {
+        "s": "SPARQL",
+        "p": "type",
+        "o": {
+          "id": "QueryLanguage"
+        }
+      },
+      {
+        "s": "SPARQL",
+        "p": "label",
+        "o": {
+          "lit": "SPARQL Protocol and RDF Query Language"
+        }
+      },
+      {
+        "s": "SPARQL",
+        "p": "queryLanguageFor",
+        "o": {
+          "id": "RDF"
+        }
+      },
+      {
+        "s": "SPARQL",
+        "p": "developedBy",
+        "o": {
+          "id": "W3C"
+        }
+      },
+      {
+        "s": "SPARQL",
+        "p": "recommendationYear",
+        "o": {
+          "lit": "2008",
+          "dt": "gYear"
+        }
+      },
+      {
+        "s": "SPARQL",
+        "p": "latestVersion",
+        "o": {
+          "lit": "1.1"
+        }
+      },
+      {
+        "s": "SPARQL",
+        "p": "queryForm",
+        "o": {
+          "id": "SELECT"
+        }
+      },
+      {
+        "s": "SPARQL",
+        "p": "queryForm",
+        "o": {
+          "id": "CONSTRUCT"
+        }
+      },
+      {
+        "s": "SPARQL",
+        "p": "queryForm",
+        "o": {
+          "id": "ASK"
+        }
+      },
+      {
+        "s": "SPARQL",
+        "p": "queryForm",
+        "o": {
+          "id": "DESCRIBE"
+        }
+      }
+    ],
+    "owl": [
+      {
+        "s": "OWL",
+        "p": "type",
+        "o": {
+          "id": "OntologyLanguage"
+        }
+      },
+      {
+        "s": "OWL",
+        "p": "label",
+        "o": {
+          "lit": "Web Ontology Language"
+        }
+      },
+      {
+        "s": "OWL",
+        "p": "developedBy",
+        "o": {
+          "id": "W3C"
+        }
+      },
+      {
+        "s": "OWL",
+        "p": "builtOn",
+        "o": {
+          "id": "RDF"
+        }
+      },
+      {
+        "s": "OWL",
+        "p": "describes",
+        "o": {
+          "id": "RDF"
+        }
+      }
+    ],
+    "knowledge_graph": [
+      {
+        "s": "KnowledgeGraph",
+        "p": "type",
+        "o": {
+          "id": "Concept"
+        }
+      },
+      {
+        "s": "KnowledgeGraph",
+        "p": "label",
+        "o": {
+          "lit": "Knowledge graph"
+        }
+      },
+      {
+        "s": "KnowledgeGraph",
+        "p": "represents",
+        "o": {
+          "lit": "entities and their relationships"
+        }
+      },
+      {
+        "s": "KnowledgeGraph",
+        "p": "canBeStoredUsing",
+        "o": {
+          "id": "RDF"
+        }
+      },
+      {
+        "s": "DBpedia",
+        "p": "type",
+        "o": {
+          "id": "KnowledgeGraph"
+        }
+      },
+      {
+        "s": "Wikidata",
+        "p": "type",
+        "o": {
+          "id": "KnowledgeGraph"
+        }
+      }
+    ],
+    "linked_data": [
+      {
+        "s": "LinkedData",
+        "p": "type",
+        "o": {
+          "id": "Method"
+        }
+      },
+      {
+        "s": "LinkedData",
+        "p": "label",
+        "o": {
+          "lit": "Linked Data"
+        }
+      },
+      {
+        "s": "LinkedData",
+        "p": "uses",
+        "o": {
+          "id": "RDF"
+        }
+      },
+      {
+        "s": "LinkedData",
+        "p": "uses",
+        "o": {
+          "id": "URI"
+        }
+      },
+      {
+        "s": "LinkedData",
+        "p": "proposedBy",
+        "o": {
+          "id": "TimBernersLee"
+        }
+      }
+    ],
+    "dbpedia": [
+      {
+        "s": "DBpedia",
+        "p": "type",
+        "o": {
+          "id": "KnowledgeGraph"
+        }
+      },
+      {
+        "s": "DBpedia",
+        "p": "label",
+        "o": {
+          "lit": "DBpedia"
+        }
+      },
+      {
+        "s": "DBpedia",
+        "p": "extractsFrom",
+        "o": {
+          "id": "Wikipedia"
+        }
+      },
+      {
+        "s": "DBpedia",
+        "p": "publishesAs",
+        "o": {
+          "id": "RDF"
+        }
+      },
+      {
+        "s": "DBpedia",
+        "p": "queryableWith",
+        "o": {
+          "id": "SPARQL"
+        }
+      }
+    ],
+    "sun": [
+      {
+        "s": "Sun",
+        "p": "type",
+        "o": {
+          "id": "Star"
+        }
+      },
+      {
+        "s": "Sun",
+        "p": "label",
+        "o": {
+          "lit": "Sun"
+        }
+      }
+    ],
+    "mercury": [
+      {
+        "s": "Mercury",
+        "p": "type",
+        "o": {
+          "id": "TerrestrialPlanet"
+        }
+      },
+      {
+        "s": "Mercury",
+        "p": "label",
+        "o": {
+          "lit": "Mercury"
+        }
+      },
+      {
+        "s": "Mercury",
+        "p": "orbits",
+        "o": {
+          "id": "Sun"
+        }
+      },
+      {
+        "s": "Mercury",
+        "p": "positionFromSun",
+        "o": {
+          "lit": "1"
+        }
+      }
+    ],
+    "venus": [
+      {
+        "s": "Venus",
+        "p": "type",
+        "o": {
+          "id": "TerrestrialPlanet"
+        }
+      },
+      {
+        "s": "Venus",
+        "p": "label",
+        "o": {
+          "lit": "Venus"
+        }
+      },
+      {
+        "s": "Venus",
+        "p": "orbits",
+        "o": {
+          "id": "Sun"
+        }
+      },
+      {
+        "s": "Venus",
+        "p": "positionFromSun",
+        "o": {
+          "lit": "2"
+        }
+      }
+    ],
+    "earth": [
+      {
+        "s": "Earth",
+        "p": "type",
+        "o": {
+          "id": "TerrestrialPlanet"
+        }
+      },
+      {
+        "s": "Earth",
+        "p": "label",
+        "o": {
+          "lit": "Earth"
+        }
+      },
+      {
+        "s": "Earth",
+        "p": "orbits",
+        "o": {
+          "id": "Sun"
+        }
+      },
+      {
+        "s": "Earth",
+        "p": "positionFromSun",
+        "o": {
+          "lit": "3"
+        }
+      },
+      {
+        "s": "Earth",
+        "p": "hasMoon",
+        "o": {
+          "id": "Moon"
+        }
+      },
+      {
+        "s": "Moon",
+        "p": "type",
+        "o": {
+          "id": "NaturalSatellite"
+        }
+      }
+    ],
+    "mars": [
+      {
+        "s": "Mars",
+        "p": "type",
+        "o": {
+          "id": "TerrestrialPlanet"
+        }
+      },
+      {
+        "s": "Mars",
+        "p": "label",
+        "o": {
+          "lit": "Mars"
+        }
+      },
+      {
+        "s": "Mars",
+        "p": "orbits",
+        "o": {
+          "id": "Sun"
+        }
+      },
+      {
+        "s": "Mars",
+        "p": "positionFromSun",
+        "o": {
+          "lit": "4"
+        }
+      },
+      {
+        "s": "Mars",
+        "p": "hasMoon",
+        "o": {
+          "id": "Phobos"
+        }
+      },
+      {
+        "s": "Phobos",
+        "p": "type",
+        "o": {
+          "id": "NaturalSatellite"
+        }
+      },
+      {
+        "s": "Mars",
+        "p": "hasMoon",
+        "o": {
+          "id": "Deimos"
+        }
+      },
+      {
+        "s": "Deimos",
+        "p": "type",
+        "o": {
+          "id": "NaturalSatellite"
+        }
+      }
+    ],
+    "jupiter": [
+      {
+        "s": "Jupiter",
+        "p": "type",
+        "o": {
+          "id": "GasGiant"
+        }
+      },
+      {
+        "s": "Jupiter",
+        "p": "label",
+        "o": {
+          "lit": "Jupiter"
+        }
+      },
+      {
+        "s": "Jupiter",
+        "p": "orbits",
+        "o": {
+          "id": "Sun"
+        }
+      },
+      {
+        "s": "Jupiter",
+        "p": "positionFromSun",
+        "o": {
+          "lit": "5"
+        }
+      },
+      {
+        "s": "Jupiter",
+        "p": "hasRingSystem",
+        "o": {
+          "lit": "true"
+        }
+      },
+      {
+        "s": "Jupiter",
+        "p": "hasMoon",
+        "o": {
+          "id": "Io"
+        }
+      },
+      {
+        "s": "Io",
+        "p": "type",
+        "o": {
+          "id": "NaturalSatellite"
+        }
+      },
+      {
+        "s": "Jupiter",
+        "p": "hasMoon",
+        "o": {
+          "id": "Europa"
+        }
+      },
+      {
+        "s": "Europa",
+        "p": "type",
+        "o": {
+          "id": "NaturalSatellite"
+        }
+      },
+      {
+        "s": "Jupiter",
+        "p": "hasMoon",
+        "o": {
+          "id": "Ganymede"
+        }
+      },
+      {
+        "s": "Ganymede",
+        "p": "type",
+        "o": {
+          "id": "NaturalSatellite"
+        }
+      },
+      {
+        "s": "Jupiter",
+        "p": "hasMoon",
+        "o": {
+          "id": "Callisto"
+        }
+      },
+      {
+        "s": "Callisto",
+        "p": "type",
+        "o": {
+          "id": "NaturalSatellite"
+        }
+      }
+    ],
+    "saturn": [
+      {
+        "s": "Saturn",
+        "p": "type",
+        "o": {
+          "id": "GasGiant"
+        }
+      },
+      {
+        "s": "Saturn",
+        "p": "label",
+        "o": {
+          "lit": "Saturn"
+        }
+      },
+      {
+        "s": "Saturn",
+        "p": "orbits",
+        "o": {
+          "id": "Sun"
+        }
+      },
+      {
+        "s": "Saturn",
+        "p": "positionFromSun",
+        "o": {
+          "lit": "6"
+        }
+      },
+      {
+        "s": "Saturn",
+        "p": "hasRingSystem",
+        "o": {
+          "lit": "true"
+        }
+      },
+      {
+        "s": "Saturn",
+        "p": "hasMoon",
+        "o": {
+          "id": "Titan"
+        }
+      },
+      {
+        "s": "Titan",
+        "p": "type",
+        "o": {
+          "id": "NaturalSatellite"
+        }
+      }
+    ],
+    "uranus": [
+      {
+        "s": "Uranus",
+        "p": "type",
+        "o": {
+          "id": "IceGiant"
+        }
+      },
+      {
+        "s": "Uranus",
+        "p": "label",
+        "o": {
+          "lit": "Uranus"
+        }
+      },
+      {
+        "s": "Uranus",
+        "p": "orbits",
+        "o": {
+          "id": "Sun"
+        }
+      },
+      {
+        "s": "Uranus",
+        "p": "positionFromSun",
+        "o": {
+          "lit": "7"
+        }
+      },
+      {
+        "s": "Uranus",
+        "p": "hasRingSystem",
+        "o": {
+          "lit": "true"
+        }
+      }
+    ],
+    "neptune": [
+      {
+        "s": "Neptune",
+        "p": "type",
+        "o": {
+          "id": "IceGiant"
+        }
+      },
+      {
+        "s": "Neptune",
+        "p": "label",
+        "o": {
+          "lit": "Neptune"
+        }
+      },
+      {
+        "s": "Neptune",
+        "p": "orbits",
+        "o": {
+          "id": "Sun"
+        }
+      },
+      {
+        "s": "Neptune",
+        "p": "positionFromSun",
+        "o": {
+          "lit": "8"
+        }
+      },
+      {
+        "s": "Neptune",
+        "p": "hasRingSystem",
+        "o": {
+          "lit": "true"
+        }
+      },
+      {
+        "s": "Neptune",
+        "p": "hasMoon",
+        "o": {
+          "id": "Triton"
+        }
+      },
+      {
+        "s": "Triton",
+        "p": "type",
+        "o": {
+          "id": "NaturalSatellite"
+        }
+      }
+    ]
+  }
+}

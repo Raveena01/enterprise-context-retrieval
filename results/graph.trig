@@ -1,0 +1,280 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://example.org/rel/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:doc:owl> {
+    <http://example.org/kb/OWL> a <http://example.org/kb/OntologyLanguage> ;
+        rdfs:label "Web Ontology Language" ;
+        ns1:builtOn <http://example.org/kb/RDF> ;
+        ns1:describes <http://example.org/kb/RDF> ;
+        ns1:developedBy <http://example.org/kb/W3C> .
+}
+
+<urn:doc:sparql> {
+    <http://example.org/kb/SPARQL> a <http://example.org/kb/QueryLanguage> ;
+        rdfs:label "SPARQL Protocol and RDF Query Language" ;
+        ns1:developedBy <http://example.org/kb/W3C> ;
+        ns1:latestVersion "1.1" ;
+        ns1:queryForm <http://example.org/kb/ASK>,
+            <http://example.org/kb/CONSTRUCT>,
+            <http://example.org/kb/DESCRIBE>,
+            <http://example.org/kb/SELECT> ;
+        ns1:queryLanguageFor <http://example.org/kb/RDF> ;
+        ns1:recommendationYear "2008"^^xsd:gYear .
+}
+
+<urn:doc:linked_data> {
+    <http://example.org/kb/LinkedData> a <http://example.org/kb/Method> ;
+        rdfs:label "Linked Data" ;
+        ns1:proposedBy <http://example.org/kb/TimBernersLee> ;
+        ns1:uses <http://example.org/kb/RDF>,
+            <http://example.org/kb/URI> .
+}
+
+<urn:doc:mercury> {
+    <http://example.org/kb/Mercury> a <http://example.org/kb/TerrestrialPlanet> ;
+        rdfs:label "Mercury" ;
+        ns1:orbits <http://example.org/kb/Sun> ;
+        ns1:positionFromSun "1" .
+}
+
+<urn:doc:sun> {
+    <http://example.org/kb/Sun> a <http://example.org/kb/Star> ;
+        rdfs:label "Sun" .
+}
+
+<urn:provenance> {
+    <urn:doc:dbpedia> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/DBpedia> ;
+        dcterms:title "DBpedia" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/DBpedia> .
+
+    <urn:doc:earth> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Earth> ;
+        dcterms:title "Earth" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Earth> .
+
+    <urn:doc:jupiter> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Jupiter> ;
+        dcterms:title "Jupiter" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Jupiter> .
+
+    <urn:doc:knowledge_graph> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Knowledge_graph> ;
+        dcterms:title "Knowledge graph" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Knowledge_graph> .
+
+    <urn:doc:linked_data> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Linked_data> ;
+        dcterms:title "Linked data" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Linked_data> .
+
+    <urn:doc:mars> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Mars> ;
+        dcterms:title "Mars" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Mars> .
+
+    <urn:doc:mercury> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Mercury_(planet)> ;
+        dcterms:title "Mercury" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Mercury_(planet)> .
+
+    <urn:doc:neptune> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Neptune> ;
+        dcterms:title "Neptune" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Neptune> .
+
+    <urn:doc:owl> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Web_Ontology_Language> ;
+        dcterms:title "Web Ontology Language" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Web_Ontology_Language> .
+
+    <urn:doc:rdf> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Resource_Description_Framework> ;
+        dcterms:title "Resource Description Framework" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Resource_Description_Framework> .
+
+    <urn:doc:saturn> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Saturn> ;
+        dcterms:title "Saturn" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Saturn> .
+
+    <urn:doc:sparql> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/SPARQL> ;
+        dcterms:title "SPARQL" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/SPARQL> .
+
+    <urn:doc:sun> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Sun> ;
+        dcterms:title "Sun" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Sun> .
+
+    <urn:doc:uranus> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Uranus> ;
+        dcterms:title "Uranus" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Uranus> .
+
+    <urn:doc:venus> a prov:Entity ;
+        dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        dcterms:publisher "Wikipedia" ;
+        dcterms:source <https://en.wikipedia.org/wiki/Venus> ;
+        dcterms:title "Venus" ;
+        prov:generatedAtTime "2026-08-13"^^xsd:date ;
+        prov:wasDerivedFrom <https://en.wikipedia.org/wiki/Venus> .
+}
+
+<urn:doc:rdf> {
+    <http://example.org/kb/RDF> a <http://example.org/kb/Standard> ;
+        rdfs:label "Resource Description Framework" ;
+        ns1:dataModel "directed labeled graph of triples" ;
+        ns1:developedBy <http://example.org/kb/W3C> ;
+        ns1:firstRecommendedYear "1999"^^xsd:gYear ;
+        ns1:statementForm "subject-predicate-object" ;
+        ns1:storedIn <http://example.org/kb/Triplestore> ;
+        ns1:usesSerialization <http://example.org/kb/JSONLD>,
+            <http://example.org/kb/Turtle> .
+}
+
+<urn:doc:knowledge_graph> {
+    <http://example.org/kb/DBpedia> a <http://example.org/kb/KnowledgeGraph> .
+
+    <http://example.org/kb/Wikidata> a <http://example.org/kb/KnowledgeGraph> .
+
+    <http://example.org/kb/KnowledgeGraph> a <http://example.org/kb/Concept> ;
+        rdfs:label "Knowledge graph" ;
+        ns1:canBeStoredUsing <http://example.org/kb/RDF> ;
+        ns1:represents "entities and their relationships" .
+}
+
+<urn:doc:venus> {
+    <http://example.org/kb/Venus> a <http://example.org/kb/TerrestrialPlanet> ;
+        rdfs:label "Venus" ;
+        ns1:orbits <http://example.org/kb/Sun> ;
+        ns1:positionFromSun "2" .
+}
+
+<urn:doc:earth> {
+    <http://example.org/kb/Earth> a <http://example.org/kb/TerrestrialPlanet> ;
+        rdfs:label "Earth" ;
+        ns1:hasMoon <http://example.org/kb/Moon> ;
+        ns1:orbits <http://example.org/kb/Sun> ;
+        ns1:positionFromSun "3" .
+
+    <http://example.org/kb/Moon> a <http://example.org/kb/NaturalSatellite> .
+}
+
+<urn:doc:mars> {
+    <http://example.org/kb/Mars> a <http://example.org/kb/TerrestrialPlanet> ;
+        rdfs:label "Mars" ;
+        ns1:hasMoon <http://example.org/kb/Deimos>,
+            <http://example.org/kb/Phobos> ;
+        ns1:orbits <http://example.org/kb/Sun> ;
+        ns1:positionFromSun "4" .
+
+    <http://example.org/kb/Deimos> a <http://example.org/kb/NaturalSatellite> .
+
+    <http://example.org/kb/Phobos> a <http://example.org/kb/NaturalSatellite> .
+}
+
+<urn:doc:saturn> {
+    <http://example.org/kb/Saturn> a <http://example.org/kb/GasGiant> ;
+        rdfs:label "Saturn" ;
+        ns1:hasMoon <http://example.org/kb/Titan> ;
+        ns1:hasRingSystem "true" ;
+        ns1:orbits <http://example.org/kb/Sun> ;
+        ns1:positionFromSun "6" .
+
+    <http://example.org/kb/Titan> a <http://example.org/kb/NaturalSatellite> .
+}
+
+<urn:doc:neptune> {
+    <http://example.org/kb/Neptune> a <http://example.org/kb/IceGiant> ;
+        rdfs:label "Neptune" ;
+        ns1:hasMoon <http://example.org/kb/Triton> ;
+        ns1:hasRingSystem "true" ;
+        ns1:orbits <http://example.org/kb/Sun> ;
+        ns1:positionFromSun "8" .
+
+    <http://example.org/kb/Triton> a <http://example.org/kb/NaturalSatellite> .
+}
+
+<urn:doc:dbpedia> {
+    <http://example.org/kb/DBpedia> a <http://example.org/kb/KnowledgeGraph> ;
+        rdfs:label "DBpedia" ;
+        ns1:extractsFrom <http://example.org/kb/Wikipedia> ;
+        ns1:publishesAs <http://example.org/kb/RDF> ;
+        ns1:queryableWith <http://example.org/kb/SPARQL> .
+}
+
+<urn:doc:jupiter> {
+    <http://example.org/kb/Jupiter> a <http://example.org/kb/GasGiant> ;
+        rdfs:label "Jupiter" ;
+        ns1:hasMoon <http://example.org/kb/Callisto>,
+            <http://example.org/kb/Europa>,
+            <http://example.org/kb/Ganymede>,
+            <http://example.org/kb/Io> ;
+        ns1:hasRingSystem "true" ;
+        ns1:orbits <http://example.org/kb/Sun> ;
+        ns1:positionFromSun "5" .
+
+    <http://example.org/kb/Callisto> a <http://example.org/kb/NaturalSatellite> .
+
+    <http://example.org/kb/Europa> a <http://example.org/kb/NaturalSatellite> .
+
+    <http://example.org/kb/Ganymede> a <http://example.org/kb/NaturalSatellite> .
+
+    <http://example.org/kb/Io> a <http://example.org/kb/NaturalSatellite> .
+}
+
+<urn:doc:uranus> {
+    <http://example.org/kb/Uranus> a <http://example.org/kb/IceGiant> ;
+        rdfs:label "Uranus" ;
+        ns1:hasRingSystem "true" ;
+        ns1:orbits <http://example.org/kb/Sun> ;
+        ns1:positionFromSun "7" .
+}
+

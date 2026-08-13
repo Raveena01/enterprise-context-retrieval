@@ -1,0 +1,16 @@
+question,answerable,graph_answer_ok,graph_source_ok,graph_returned,vector_answer_ok,vector_source_ok,vector_returned
+What is SPARQL a query language for?,True,True,True,RDF,True,True,top=[sparql] score=0.697
+Who developed RDF?,True,True,True,W3C,True,True,top=[rdf] score=0.32
+In what year did SPARQL become a W3C recommendation?,True,True,True,2008,True,True,top=[sparql] score=0.586
+Who proposed Linked Data?,True,True,True,TimBernersLee,False,True,top=[linked_data] score=0.445
+What does OWL build on?,True,True,True,RDF,True,True,top=[owl] score=0.325
+What does DBpedia extract facts from?,True,True,True,Wikipedia,True,True,top=[dbpedia] score=0.419
+What is the latest version of SPARQL?,True,True,True,1.1,True,True,top=[sparql] score=0.498
+Name a serialization format used by RDF.,True,True,True,"Turtle, JSONLD",True,False,top=[owl] score=0.319
+What is the price of a BMW electric car?,False,True,,(nothing),True,,top=[venus] score=0.0
+Who is the CEO of BMW?,False,True,,(nothing),True,,top=[venus] score=0.0
+What does Earth orbit?,True,True,True,Sun,True,False,top=[sun] score=0.504
+What is Mars's position from the Sun?,True,True,True,4,True,True,top=[mars] score=0.466
+Name a moon of Jupiter.,True,True,True,"Io, Europa, Ganymede, Callisto",False,False,top=[earth] score=0.477
+Name a moon of Mars.,True,True,True,"Phobos, Deimos",False,False,top=[earth] score=0.477
+How many people live on Mars?,False,True,,(nothing),False,,top=[mars] score=0.394

@@ -1,0 +1,199 @@
+{
+  "_note": "Questions for comparing the graph and vector retrieval. For each question: 'subject'/'predicate' let the graph look up the fact; 'graph_expected' lists acceptable graph answers; 'text_expected' lists strings that count as the answer if found in a retrieved passage; 'source' is the document the answer should come from; 'answerable' is false for questions the corpus cannot answer.",
+  "questions": [
+    {
+      "question": "What is SPARQL a query language for?",
+      "subject": "SPARQL",
+      "predicate": "queryLanguageFor",
+      "graph_expected": [
+        "RDF"
+      ],
+      "text_expected": [
+        "RDF"
+      ],
+      "source": "sparql",
+      "answerable": true
+    },
+    {
+      "question": "Who developed RDF?",
+      "subject": "RDF",
+      "predicate": "developedBy",
+      "graph_expected": [
+        "W3C"
+      ],
+      "text_expected": [
+        "W3C",
+        "World Wide Web Consortium"
+      ],
+      "source": "rdf",
+      "answerable": true
+    },
+    {
+      "question": "In what year did SPARQL become a W3C recommendation?",
+      "subject": "SPARQL",
+      "predicate": "recommendationYear",
+      "graph_expected": [
+        "2008"
+      ],
+      "text_expected": [
+        "2008"
+      ],
+      "source": "sparql",
+      "answerable": true
+    },
+    {
+      "question": "Who proposed Linked Data?",
+      "subject": "LinkedData",
+      "predicate": "proposedBy",
+      "graph_expected": [
+        "TimBernersLee"
+      ],
+      "text_expected": [
+        "Berners-Lee"
+      ],
+      "source": "linked_data",
+      "answerable": true
+    },
+    {
+      "question": "What does OWL build on?",
+      "subject": "OWL",
+      "predicate": "builtOn",
+      "graph_expected": [
+        "RDF"
+      ],
+      "text_expected": [
+        "RDF"
+      ],
+      "source": "owl",
+      "answerable": true
+    },
+    {
+      "question": "What does DBpedia extract facts from?",
+      "subject": "DBpedia",
+      "predicate": "extractsFrom",
+      "graph_expected": [
+        "Wikipedia"
+      ],
+      "text_expected": [
+        "Wikipedia"
+      ],
+      "source": "dbpedia",
+      "answerable": true
+    },
+    {
+      "question": "What is the latest version of SPARQL?",
+      "subject": "SPARQL",
+      "predicate": "latestVersion",
+      "graph_expected": [
+        "1.1"
+      ],
+      "text_expected": [
+        "1.1"
+      ],
+      "source": "sparql",
+      "answerable": true
+    },
+    {
+      "question": "Name a serialization format used by RDF.",
+      "subject": "RDF",
+      "predicate": "usesSerialization",
+      "graph_expected": [
+        "Turtle",
+        "JSONLD"
+      ],
+      "text_expected": [
+        "Turtle",
+        "JSON-LD"
+      ],
+      "source": "rdf",
+      "answerable": true
+    },
+    {
+      "question": "What is the price of a BMW electric car?",
+      "subject": "BMWCar",
+      "predicate": "price",
+      "graph_expected": [],
+      "text_expected": [],
+      "source": null,
+      "answerable": false
+    },
+    {
+      "question": "Who is the CEO of BMW?",
+      "subject": "BMW",
+      "predicate": "ceo",
+      "graph_expected": [],
+      "text_expected": [],
+      "source": null,
+      "answerable": false
+    },
+    {
+      "question": "What does Earth orbit?",
+      "subject": "Earth",
+      "predicate": "orbits",
+      "graph_expected": [
+        "Sun"
+      ],
+      "text_expected": [
+        "Sun"
+      ],
+      "source": "earth",
+      "answerable": true
+    },
+    {
+      "question": "What is Mars's position from the Sun?",
+      "subject": "Mars",
+      "predicate": "positionFromSun",
+      "graph_expected": [
+        "4"
+      ],
+      "text_expected": [
+        "fourth"
+      ],
+      "source": "mars",
+      "answerable": true
+    },
+    {
+      "question": "Name a moon of Jupiter.",
+      "subject": "Jupiter",
+      "predicate": "hasMoon",
+      "graph_expected": [
+        "Io",
+        "Europa",
+        "Ganymede",
+        "Callisto"
+      ],
+      "text_expected": [
+        "Io",
+        "Europa",
+        "Ganymede",
+        "Callisto"
+      ],
+      "source": "jupiter",
+      "answerable": true
+    },
+    {
+      "question": "Name a moon of Mars.",
+      "subject": "Mars",
+      "predicate": "hasMoon",
+      "graph_expected": [
+        "Phobos",
+        "Deimos"
+      ],
+      "text_expected": [
+        "Phobos",
+        "Deimos"
+      ],
+      "source": "mars",
+      "answerable": true
+    },
+    {
+      "question": "How many people live on Mars?",
+      "subject": "MarsColony",
+      "predicate": "population",
+      "graph_expected": [],
+      "text_expected": [],
+      "source": null,
+      "answerable": false
+    }
+  ]
+}
